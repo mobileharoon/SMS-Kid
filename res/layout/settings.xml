@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+            <TextView android:id="@+id/textViewPhoneNo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Phone Number"  />
+            <EditText android:id="@+id/editTextPhoneNo" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:phoneNumber="true"></EditText>
+            <TextView android:id="@+id/textViewSMS" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SMS Message" />
+            <EditText android:id="@+id/editTextSMS" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="top" />
+            <TextView android:id="@+id/intervaltxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Interval (minutes)"  />
+            <EditText android:id="@+id/intervalset" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:gravity="top" />
+            <TextView android:id="@+id/timeouttxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Timeout (minutes)"  />
+            <EditText android:id="@+id/timeoutset" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:gravity="top" />
+            <TextView android:id="@+id/email_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email ID (SMTP)" />
+            <EditText android:id="@+id/userid" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <TextView android:id="@+id/email_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Email Password (SMTP)"/>  
+            <EditText android:id="@+id/password" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <TextView android:id="@+id/email_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="From (SMTP)"/>
+            <EditText android:id="@+id/from" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <TextView android:id="@+id/email_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To (SMTP)"/>
+            <EditText android:id="@+id/to" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <TextView android:id="@+id/email_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Subject (SMTP)"/>
+            <EditText android:id="@+id/subject" android:singleLine="true" android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <TextView android:id="@+id/email_id" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Body (SMTP)"/>
+            <EditText android:id="@+id/body" android:singleLine="true"  android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+            <Button android:id="@+id/saveSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SAVE SETTINGS" />
+</LinearLayout>
+
+</ScrollView>
